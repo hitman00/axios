@@ -2,10 +2,10 @@
   <div :class="$style.user_main">
     <div :class="$style.box">
       <div :class="$style.title">List Of Users</div>
-      <div v-for="i in rr" :key="i.id" :class="$style.name_list">
+      <div v-for="item in items" :key="item.id" :class="$style.name_list">
         <ul>
           <li>
-            <a :href="i.id">{{ i.name }}</a>
+            <NuxtLink :to="'/user/' + item.id">{{ item.name }}</NuxtLink>
           </li>
         </ul>
       </div>
@@ -17,35 +17,13 @@
 export default {
   name: 'FoundUserBox',
   data: () => ({
-    ip: [],
-    rr: [],
-    len: '',
+    items: [],
   }),
   async fetch() {
-    const data = await this.$axios.get(
+    const { data } = await this.$axios.get(
       'https://jsonplaceholder.typicode.com/users'
     )
-    this.len = data.data.length
-    for (let i = 0; i < data.data.length; i++) {
-      this.rr[i] = data.data[i]
-      console.log(this.rr)
-    }
-  },
-  methods: {
-    // async getData() {
-    //   const data = await this.$axios.get(
-    //     'https://jsonplaceholder.typicode.com/users'
-    //   )
-    //   for (let i = 0; i < data.data.length; i++) {
-    //     this.ip[i] = data.data[i].name
-    //     console.log(this.ip)
-    //   }
-    // },
-    // async fetchSomething() {
-    //   const ip = await this.$axios.get('http://icanhazip.com')
-    //   this.ip = ip
-    //   console.log(this.ip)
-    // },
+    this.items = data
   },
 }
 </script>
