@@ -17,15 +17,13 @@
 export default {
   name: 'FoundUserBox',
   data: () => ({
-    ip: [],
     rr: [],
-    len: '',
   }),
   async fetch() {
     const data = await this.$axios.get(
       'https://jsonplaceholder.typicode.com/users'
     )
-    this.len = data.data.length
+    // this.len = data.data.length
     for (let i = 0; i < data.data.length; i++) {
       this.rr[i] = data.data[i]
       console.log(this.rr)
