@@ -16,6 +16,8 @@ export default {
 
 <style lang="scss" module>
 .main {
-  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 </style>

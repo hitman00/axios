@@ -2,9 +2,9 @@
   <div :class="$style.header_main">
     <div :class="$style.max_size">
       <div :class="$style.logo">
-        <div :class="$style.logo_image">
+        <NuxtLink to="/" :class="$style.logo_image">
           <img src="@/assets/imgs/logo.png" />
-        </div>
+        </NuxtLink>
         <div :class="$style.logo_title">MR Company</div>
       </div>
       <div :class="$style.meno">
