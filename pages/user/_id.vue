@@ -32,9 +32,6 @@ export default {
 </script>
 
 <style lang="scss" module>
-.pre {
-}
-
 .user_main {
   max-width: 1200px;
   margin: 0 auto;
@@ -48,14 +45,6 @@ export default {
   margin: 4% auto;
   border-radius: 10px;
   padding: 5%;
-}
-
-.pre {
-  a {
-    color: rgb(40, 204, 233);
-    padding: 4% 0;
-    display: inline-block;
-  }
 }
 
 .title {
