@@ -1,20 +1,26 @@
-# selfproject
+# Member list Landing page
 
-## Build Setup
+I try to implement this concept design for web.
 
-```bash
-# install dependencies
-$ npm install
+![Image](https://github.com/hitman00/members-list-design/blob/master/assets/imgs/demo.PNG)
 
-# serve with hot reload at localhost:3000
-$ npm run dev
+## Link
 
-# build for production and launch server
-$ npm run build
-$ npm run start
+- [Demo](https://hitman00.github.io/members-list-design/)
+- Concept page: [Dribbble page](https://dribbble.com/shots/6158106-Members-List-design-concept/attachments/11290406?mode=media)
+- Images: [Google](https://google.com) - [Dribbble](https://dribbble.com/)
 
-# generate static project
-$ npm run generate
-```
+## Technologies
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+- NuxtJs (SSG)
+- Scss
+- Axios
+
+## License
+
+This repository is licensed under the [GPL-3.0](https://opensource.org/licenses/GPL-3.0).
+
+## Contact Us
+
+- E-mail: <mrezaee79@gmail.com.com><br>
+- Telegram: [@Hitman](https://telegram.me/hitman0012)
