@@ -1,0 +1,1 @@
+window.__NUXT__=(function(a){return {staticAssetsBase:"\u002Fmembers-list-design\u002F_nuxt\u002Fstatic\u002F1634628308",layout:"default",error:a,serverRendered:true,routePath:"\u002Fbuild\u002FGroup%20chats",config:{_app:{basePath:"\u002Fmembers-list-design\u002F",assetsPath:"\u002Fmembers-list-design\u002F_nuxt\u002F",cdnURL:a}}}}(null));
