@@ -1,6 +1,6 @@
 <template>
-  <div :class="$style.meno_main">
-    <div :class="$style.meno_box">
+  <div :class="$style.menu_main">
+    <div :class="$style.menu_box">
       <ul v-for="item in list" :key="item.id">
         <NuxtLink :to="item.address">
           <li>
@@ -14,7 +14,7 @@
 
 <script>
 export default {
-  name: 'LeftMeno',
+  name: 'Leftmenu',
   data: () => ({
     list: [
       {
@@ -63,7 +63,7 @@ export default {
 </script>
 
 <style lang="scss" module>
-.meno_main {
+.menu_main {
   width: 20%;
   background: #6f5cc2;
   height: 100vh;
@@ -72,7 +72,7 @@ export default {
   padding-top: 2%;
 }
 
-.meno_box {
+.menu_box {
   ul {
     a {
       color: #fff;
@@ -97,32 +97,32 @@ export default {
 }
 
 @media (max-width: 950px) {
-  .meno_box ul li {
+  .menu_box ul li {
     font-size: 14px;
   }
 
-  .meno_main {
+  .menu_main {
     width: 25%;
   }
 }
 
 @media (max-width: 600px) {
-  .meno_box ul li span {
+  .menu_box ul li span {
     display: none;
   }
 
-  .meno_main {
+  .menu_main {
     width: 8%;
   }
 
-  .meno_box ul a {
+  .menu_box ul a {
     margin: 12% 0px;
     display: block;
   }
 }
 
 @media (max-width: 450px) {
-  .meno_main {
+  .menu_main {
     width: 12%;
   }
 }

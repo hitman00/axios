@@ -1,17 +1,17 @@
 <template>
   <div>
     <Header />
-    <LeftMeno />
+    <LeftMenu />
     <Nuxt />
   </div>
 </template>
 <script>
 import Header from '@/components/Header/Header.vue'
-import LeftMeno from '@/components/LeftMeno/LeftMeno.vue'
+import LeftMenu from '~/components/LeftMenu/LeftMenu.vue'
 export default {
   components: {
     Header,
-    LeftMeno,
+    LeftMenu,
   },
 }
 </script>
