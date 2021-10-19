@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/build/Profile", {data:[{}],fetch:{},mutations:void 0});

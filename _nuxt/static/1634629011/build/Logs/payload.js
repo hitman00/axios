@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/build/Logs", {data:[{}],fetch:{},mutations:void 0});
