@@ -1,5 +1,10 @@
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
+  target: 'static',
+  // Global page headers: https://go.nuxtjs.dev/config-head
+  router: {
+    base: '/members-list-design/',
+  },
   head: {
     title: 'selfproject',
     htmlAttrs: {
