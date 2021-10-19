@@ -33,18 +33,19 @@ export default {
 
 <style lang="scss" module>
 .user_main {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
-  color: #55c3c9;
+  width: 80%;
+  float: right;
+  padding: 2% 2% 0 1%;
+  color: #626c7b;
 }
 
 .box {
   background: #fff;
   width: 80%;
   margin: 4% auto;
-  border-radius: 10px;
   padding: 5%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 3px rgba(3, 3, 3, 0.47843);
 }
 
 .title {
@@ -57,6 +58,16 @@ export default {
 .detals {
   div {
     padding: 3% 0 0;
+  }
+}
+
+@media (max-width: 500px) {
+  .title {
+    font-size: 20px;
+  }
+
+  .detals {
+    font-size: 14px;
   }
 }
 </style>
